@@ -22,7 +22,7 @@ $Var = "";
 foreach($CategoryList as $Category) { ?>
         <div>
             <?php $CatName = IPS_GetName($Category);
-            $Var .= $Category . " -> " . $CatName . "<br>"; 
+            $Var = $CatName . "<br>"; 
         }?>
     </div>
 
