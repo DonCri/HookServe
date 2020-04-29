@@ -22,6 +22,7 @@ body {
 }
 
 #ModuleUpdate {
+    background-image: url(../img/update_v2.png);
     height: 30px;
     width: 30px;
 }
