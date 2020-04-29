@@ -14,7 +14,8 @@ body {
 
 #titel {
     color: black;
-    font-size: 18px;
+    font-size: 25px;
+    font: bold;
     display: table-cell;
     text-align: left;
     vertical-align: middle;
