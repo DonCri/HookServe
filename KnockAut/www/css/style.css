@@ -47,7 +47,8 @@ body {
     font-size: 15px;
     text-align: left;
     vertical-align: middle;
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 20px;
     float: left;
     background-image: url(../img/Home.png);
