@@ -2,6 +2,17 @@ body {
     background-color: black;
 }
 
+#titelbalken {
+    background-color: chartreuse;
+    border: cornsilk;
+    border-radius: 5px;
+}
+
+#titel {
+    color: black;
+    font-size: 18px;
+}
+
 #Test {
     color: rgb(209, 210, 212);
 }
