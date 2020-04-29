@@ -32,3 +32,11 @@ body {
     height: 30px;
     width: 30px;
 }
+
+#content {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 20px;
+}
