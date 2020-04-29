@@ -19,11 +19,11 @@ sort($CategoryList);
 
 $Var = "";
 
-foreach($CategoryList as $Category)  ?>
-    <div id="content">
-    <?php $CatName = IPS_GetName($Category);
-    $Var .= $Category . " -> " . $CatName . "<br>"; 
-    ?>
+foreach($CategoryList as $Category) { ?>
+        <div id="content">
+            <?php $CatName = IPS_GetName($Category);
+            $Var .= $Category . " -> " . $CatName . "<br>"; 
+        }?>
     </div>
 
 <?php echo $Var;
