@@ -1,4 +1,7 @@
+#body {
+    background-color: black;
+}
+
 #Test {
-    color: rgb(0%, 30.2%, 100%);
-    background-color: rgb(13.3%, 18.2%, 29.6%);
+    color: rgb(209, 210, 212);
 }
