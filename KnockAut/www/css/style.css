@@ -7,13 +7,14 @@ body {
     border: cornsilk;
     border-radius: 5px;
     height: 50px;
-    text-align: left;
-    vertical-align: middle;
+    
 }
 
 #titel {
     color: black;
     font-size: 18px;
+    text-align: left;
+    vertical-align: middle;
 }
 
 #Test {
