@@ -23,6 +23,7 @@ body {
 }
 
 #titelUpdate {
+    display: table-cell;
     float: right;
 }
 
