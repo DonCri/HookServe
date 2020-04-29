@@ -7,6 +7,7 @@
 </head>
 <body>
 
+<div>
 <div id="titelbalken">
     <div id="titel">My House</div>
     <div id="titelUpdate"> <p><a href="module_update.php"><img id="ModuleUpdate" src="img/update_v2.png"></a></p> </div>
@@ -16,6 +17,7 @@
     <?php 
     include("/include/test.php"); 
     ?>
+</div>
 </div>
 
 </body>
