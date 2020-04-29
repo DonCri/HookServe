@@ -35,6 +35,7 @@ body {
 
 #content {
     color: white;
+    display: table-cell;
     font-size: 15px;
     text-align: left;
     vertical-align: middle;
