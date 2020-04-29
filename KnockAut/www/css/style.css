@@ -6,7 +6,7 @@ body {
     display: table;
     background-color: chartreuse;
     border: cornsilk;
-    position: fixed;
+    position: absolute;
     height: 50px;
     width: 100%;
     
