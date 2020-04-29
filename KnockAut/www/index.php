@@ -20,7 +20,7 @@ sort($CategoryList);
 $Var = "";
 
 foreach($CategoryList as $Category) { ?>
-        <div id="content">
+        <div>
             <?php $CatName = IPS_GetName($Category);
             $Var .= $Category . " -> " . $CatName . "<br>"; 
         }?>
