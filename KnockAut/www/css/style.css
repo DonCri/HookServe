@@ -3,6 +3,7 @@ body {
 }
 
 #titelbalken {
+    display: table;
     background-color: chartreuse;
     border: cornsilk;
     border-radius: 5px;
