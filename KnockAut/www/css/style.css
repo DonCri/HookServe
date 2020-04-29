@@ -46,10 +46,11 @@ body {
     display: table-cell;
     font-size: 15px;
     text-align: left;
+    vertical-align: middle;
     padding-left: 20px;
     padding-top: 20px;
     float: left;
     background-image: url(../img/Home.png);
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
