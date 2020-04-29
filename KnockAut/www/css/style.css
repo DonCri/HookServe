@@ -32,6 +32,16 @@ body {
     width: 30px;
 }
 
+#nav {
+    color: white;
+    display: table-cell;
+    font-size: 15px;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
 #content {
     color: white;
     display: table-cell;

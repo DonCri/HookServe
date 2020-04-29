@@ -12,21 +12,24 @@
     <div id="titelUpdate"> <p><a href="module_update.php"><img id="ModuleUpdate" src="img/update_v2.png"></a></p> </div>
 </div>
 
-<div id="content">
-<?php
-$CategoryList = IPS_GetCategoryList();
-sort($CategoryList);
+<div id="nav">
+    <?php
+        $CategoryList = IPS_GetCategoryList();
+        sort($CategoryList);
 
-$Var = "";
+        $Var = "";
 
-foreach($CategoryList as $Category) { 
+        foreach($CategoryList as $Category) { 
         
             $CatName = IPS_GetName($Category);?>
-           <div> 
-           <?php $Var = $CatName; 
-           echo $Var; ?>
-        </div>
-        <?php } ?>
+            <div> 
+            <?php $Var = $CatName; 
+            echo $Var; ?>
+            </div>
+    <?php } ?>
+</div>
+<div id="content">
+        Hallo Welt
 </div>
 
 </body>
