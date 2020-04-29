@@ -1,0 +1,14 @@
+{
+	"id": "{0361A1D1-089F-143B-43AF-3814D2DF0117}",
+	"name": "KnockAut Configurator",
+	"type": 4,
+	"vendor": "",
+	"aliases": 
+	[
+		"KnockAut Configurator"
+	],
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "KNA"
+}

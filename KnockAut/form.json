@@ -1,0 +1,8 @@
+{
+	"elements":
+	[
+		{ "type":"Label", "name": "KnockAutUrl", "caption":"hook/knockaut/<Instanz-ID>/"},
+		{ "type": "SelectCategory", "name": "StartCategoryID", "caption": "Start Folder" },
+		{ "type": "SelectInstance", "name": "WebFrontID", "caption": "WebFront" }
+	]
+}
