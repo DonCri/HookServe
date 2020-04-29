@@ -52,6 +52,7 @@ body {
     padding-top: 20px;
     float: left;
     background-image: url(../img/Home.png);
+    background-position: center;
     width: 80px;
     height: 80px;
 }
