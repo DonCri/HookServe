@@ -14,7 +14,7 @@
 
 <div id="nav">
     <?php
-        $CategoryList = IPS_GetCategoryList();
+        $CategoryList = IPS_GetChildrenIDs(33603);
         sort($CategoryList);
 
         $Var = "";
