@@ -39,7 +39,6 @@ body {
     text-align: left;
     padding-left: 20px;
     padding-top: 20px;
-    float: inline-end;
 }
 
 #content {
@@ -49,4 +48,5 @@ body {
     text-align: left;
     padding-left: 20px;
     padding-top: 20px;
+    float: left;
 }
