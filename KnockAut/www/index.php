@@ -28,9 +28,7 @@
             </div>
     <?php } ?>
 </div>
-<div id="content">
-        Hallo Welt
-</div>
+
 
 </body>
 </html>
