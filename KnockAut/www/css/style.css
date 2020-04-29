@@ -19,6 +19,11 @@ body {
     display: table-cell;
     text-align: left;
     vertical-align: middle;
+    float: left;
+}
+
+#titelUpdate {
+    float: right;
 }
 
 #ModuleUpdate {
