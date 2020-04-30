@@ -22,7 +22,7 @@
         foreach($CategoryList as $Category) { 
         
             $CatName = IPS_GetName($Category);?>
-            <a href="include/<?php echo($CatName . ".php")?>"><div id="content"> 
+            <a href="#dialog"><div id="content"> 
             <?php $Var = $CatName; 
             echo $Var; ?>
             </a></div>
@@ -31,7 +31,7 @@
 
 <div>
 
-<a href="#dialog">Dialog Öffnen</a><a href="#">Dialog Schließen</a>
+
 <dialog id="dialog">
 Hallo, ich bin ein Dialog, der über CSS geöffnet wurde.
 </dialog>
