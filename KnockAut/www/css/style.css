@@ -60,4 +60,9 @@ body {
 
 dialog:target {
     display: block;
+    color: ivory;
+}
+
+#meinDialog {
+    color: rgb(94.8%, 94.8%, 94.8%);
 }
