@@ -52,6 +52,10 @@ body {
     padding-top: 100px;
     padding-bottom: 10px;
     float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
 }
 
 #contentSPAN {
