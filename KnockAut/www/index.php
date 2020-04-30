@@ -31,9 +31,12 @@
 
 <div>
 
+<? $Text = "Hallo Welt";
+
+?>
 
 <dialog id="dialog">
-<div>Hallo, ich bin ein Dialog, der über CSS geöffnet wurde. <br> <a href="#">Schliessen</a></div>
+<div><? echo $Text; ?> <br> <a href="#">Schliessen</a></div>
 </dialog>
 
 </div>
