@@ -63,15 +63,7 @@ body {
     position: absolute;
 }
 
-#contentIMG {
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
-    position: relative;
-    display: table-cell;
-    padding-top: 20px;
-}
+
 
 dialog:target {
     display: block;
