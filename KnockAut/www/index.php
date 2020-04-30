@@ -34,7 +34,7 @@
 
 <dialog id="dialog">
 <? 
-$GetInstance = IPS_GetChildrenIDs($Category);
+$GetInstance = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var));
 $Inst = "";
 
 foreach($GetInstance as $InstanceID) {
