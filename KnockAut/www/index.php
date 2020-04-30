@@ -33,7 +33,7 @@
 
 
 
-<object id="dialog" data="include/Korridor.php">
+<object data="include/Korridor.php" >
 <? 
 $GetInstance = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
 $Inst = "";
