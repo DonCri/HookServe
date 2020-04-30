@@ -52,17 +52,17 @@ body {
     padding-top: 140px;
     padding-bottom: 10px;
     float: left;
+    
+}
+
+#contentIMG {
     background-position: center;
     background-repeat: no-repeat;
     width: 150px;
     height: 150px;
     position: relative;
-}
-
-#contentIMG {
     display: table-cell;
     padding-top: 20px;
-    
 }
 
 dialog:target {
