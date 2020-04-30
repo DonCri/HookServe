@@ -32,7 +32,7 @@
 <div>
 
 <a href="#meinDialog">Dialog Öffnen</a><a href="#">Dialog Schließen</a>
-<dialog id="dialog">
+<dialog open id="meinDialog">
 Hallo, ich bin ein Dialog, der über CSS geöffnet wurde.
 </dialog>
 
