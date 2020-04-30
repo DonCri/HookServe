@@ -22,10 +22,10 @@
         foreach($CategoryList as $Category) { 
         
             $CatName = IPS_GetName($Category);?>
-            <div id="content"> 
+            <div id="content"> <a href="/include/$Category">
             <?php $Var = $CatName; 
             echo $Var; ?>
-            </div>
+            </a></div>
     <?php } ?>
 </div>
 
