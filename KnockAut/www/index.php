@@ -44,7 +44,7 @@ $Inst = "";
     $Inst = $InstName;
 
     echo $Inst; ?> </div>
-<? } ?>
+<? } ?> <a href="#">Schliessen</a>
 </dialog>
 
 </div>
