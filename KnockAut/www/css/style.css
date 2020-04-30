@@ -57,3 +57,7 @@ body {
     width: 150px;
     height: 150px;
 }
+
+dialog:target {
+    display: block;
+}

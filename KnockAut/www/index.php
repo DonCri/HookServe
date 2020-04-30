@@ -29,6 +29,15 @@
     <?php } ?>
 </div>
 
+<div>
+
+<a href="#meinDialog">Dialog Öffnen</a><a href="#">Dialog Schließen</a>
+<dialog id="meinDialog">
+Hallo, ich bin ein Dialog, der über CSS geöffnet wurde.
+</dialog>
+
+</div>
+
 
 </body>
 </html>
