@@ -34,10 +34,10 @@
 
 <dialog id="dialog">
 <? 
-$GetInstance = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var));
+$GetInstance = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
 $Inst = "";
 
-foreach($GetInstance as $InstanceID) {
+    foreach($GetInstance as $InstanceID) {
     $InstName = IPS_GetName($InstanceID); ?>
     
     <div> <?
