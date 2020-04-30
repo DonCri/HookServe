@@ -22,9 +22,9 @@
         
             $CatName = IPS_GetName($Category);?>
             <a href="#dialog"><div id="content">
-                <span><img src="img/Home.png"> </span>
-            <?php $Var = $CatName; 
-            echo $Var; ?>
+                <img src="img/Home.png">
+            <span><?php $Var = $CatName; 
+            echo $Var; ?></span>
             </a></div>
     <?php } ?>
 </div>
