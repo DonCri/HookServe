@@ -33,7 +33,7 @@
 
 
 
-<object data="include/Korridor.php" >
+<dialog id="dialog">
 <? 
 $GetInstance = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
 $Inst = "";
@@ -46,7 +46,7 @@ $Inst = "";
 
     echo $Inst; ?> </div>
 <? } ?> <a href="#">Schliessen</a>
-    </object>
+    </dialog>
 
 </div>
 
