@@ -21,7 +21,7 @@
         foreach($CategoryList as $Category) { 
         
             $CatName = IPS_GetName($Category);?>
-            <a href="#dialog"><div id="content"><img src="img/Home.png"> 
+            <a href="#dialog"><div id="content"><img src="img/Home.png" alt="<?php echo $CatName; ?>"> 
             <?php $Var = $CatName; 
             echo $Var; ?>
             </a></div>
