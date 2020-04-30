@@ -55,6 +55,7 @@ body {
 }
 
 #contentIMG {
+    padding-top: 20px;
     background-position: center;
     background-repeat: no-repeat;
     width: 150px;
