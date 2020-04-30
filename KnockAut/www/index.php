@@ -15,7 +15,6 @@
 <div id="nav">
     <?php
         $CategoryList = IPS_GetChildrenIDs(33603);
-        sort($CategoryList);
 
         $Var = "";
 
@@ -31,12 +30,21 @@
 
 <div>
 
-<? $Text = "Hallo Welt";
 
-?>
 
 <dialog id="dialog">
-<div><? echo $Text; ?> <br> <a href="#">Schliessen</a></div>
+<? 
+$GetInstance = IPS_GetChildrenIDs($Category);
+$Inst = "";
+
+foreach($GetInstance as $InstanceID) {
+    $InstName = IPS_GetName($InstanceID); ?>
+    
+    <div> <?
+    $Inst = $InstName;
+
+    echo $Inst; ?> </div>
+<? } ?>
 </dialog>
 
 </div>
