@@ -30,11 +30,33 @@
                 <img src="img/Home.png">
             <span id="contentSPAN"><?php $Var = $CatName; 
             echo $Var; ?></span>
+            <dialog id="dialog">
+                <? 
+                $GetInstance = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var));
+                $Inst = "";
+
+                    foreach($GetInstance as $InstanceID) {
+                    $InstName = IPS_GetName($InstanceID); ?>
+                    
+                    <div> <?
+                    $Inst = $InstName;
+
+                    echo $Inst; ?> </div>
+                <? } ?> <a href="#">Schliessen</a>
+                    </dialog>
             </a></div>
     <?php } ?>
 </div>
 
-<div id="output">
+<div>
+    <?php
+        $Room = IPS_GetChildrenIDs(IPS_GetCategoryIDByName());
+        $Inst="";
+
+    ?>
+</div>
+
+<!-- <div id="output"> -->
 
 </div>
 
