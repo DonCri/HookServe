@@ -15,7 +15,7 @@
 <body>
 
 <?php
-    include('ws/w_socker.js');
+    include('ws/w_socket.js');
 ?>
 
 <div id="titelbalken">
