@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 
-// test 4
-// test 5
-
-
 <html lang="de">
 <head>
     <meta charset="UTF-8">
@@ -55,7 +51,9 @@ $Inst = "";
 
 </div>
 
-
+<div>
+    <?php include("ws/websocket.html"); ?>
+</div>
 
 </body>
 </html>
