@@ -1,4 +1,4 @@
-</script>
+<script>
 <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
 <script language="javascript" type="text/javascript">
 
