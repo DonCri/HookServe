@@ -32,7 +32,7 @@
             echo $Var; ?></span>
             <dialog id="dialog">
                 <? 
-                $GetInstance = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var));
+                $GetInstance = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, $Category));
                 $Inst = "";
 
                     
