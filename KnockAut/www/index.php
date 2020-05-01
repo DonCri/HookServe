@@ -6,7 +6,7 @@
     <title>Test eigene Visualisierung</title>
     <link rel="stylesheet" href="css/style.css">
     <?php
-        include('ws/w_socket.js');
+        include('ws/websocket.html');
     ?>
 </head>
 <body>
