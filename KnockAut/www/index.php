@@ -51,8 +51,8 @@ $Inst = "";
 
 </div>
 
-<div id="websocket">
-    ¨<p id="output"></p>
+<div id="output">
+
 </div>
 
 </body>
