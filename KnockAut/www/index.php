@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <title>Test eigene Visualisierung</title>
     <link rel="stylesheet" href="css/style.css">
-    <?php
-        include('ws/websocket.html');
-    ?>
 </head>
 <body>
 
-
+<?php
+        include('ws/websocket.html');
+    ?>
 
 <div id="titelbalken">
     <div id="titel">My House</div>
