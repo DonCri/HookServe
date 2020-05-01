@@ -41,8 +41,8 @@
 
   function onOpen(evt)
   {
-    writeToScreen("CONNECTED");
-    doSend('{jsonrpc: "2.0", method: "WFC_GetConfigurators", params: [], id: 1588239526125}');
+    // writeToScreen("CONNECTED");
+    // doSend('{jsonrpc: "2.0", method: "WFC_GetConfigurators", params: [], id: 1588239526125}');
   }
 
   function onClose(evt)
@@ -52,7 +52,7 @@
 
   function onMessage(evt)
   {
-    writeToScreen('<span style="color: blue;">RESPONSE: ' + evt.data+'</span>');
+    writeToScreen('<span style="color: white;">RESPONSE: ' + evt.data+'</span>');
     // websocket.close();
   }
 
