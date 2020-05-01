@@ -5,8 +5,18 @@
     <meta charset="UTF-8">
     <title>Test eigene Visualisierung</title>
     <link rel="stylesheet" href="css/style.css">
+    <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.collapsible').collapsible();
+    });
+  </script>
 </head>
 <body>
+
+<?php
+    include('ws/w_socker.js');
+?>
 
 <div id="titelbalken">
     <div id="titel">My House</div>

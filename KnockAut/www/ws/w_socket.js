@@ -1,0 +1,72 @@
+</script>
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+<script language="javascript" type="text/javascript">
+
+/**
+* Infos:
+* https://www.symcon.de/forum/threads/40111-Websocket
+*/
+
+var wsUri = "ws://192.168.0.26:3777/wfc/34374/api/";		// no authentication (WebFront API)
+//var wsUri = "wss://aa4141ea65a17bf2980885b955b81352.ipmagic.de/wfc/39133/api/";		// no authentication (WebFront API) SSH
+//var wsUri = "wss://192.168.49.51:3777/api/";				// Full API 
+//var wsUri = "ws://192.168.49.51:3777/wfc/14134/api/";		// needs authentication (webfront:2222)
+var output;
+
+function init()
+{
+  output = document.getElementById("output");
+  testWebSocket();
+}
+
+function testWebSocket()
+{
+  //websocket = new WebSocket(wsUri);
+  //websocket = new WebSocket(wsUri, [encodeURIComponent(btoa('webfront:2222'))]);
+  websocket = new WebSocket(wsUri, [encodeURIComponent(btoa('c.fanciullo@me.com:ja93ja'))]);
+  //websocket = new WebSocket(wsUri, [encodeURIComponent(btoa('<fernzugriff-user>:<fernzugriff-passwd>'))]);
+  websocket.onopen = function(evt) { onOpen(evt) };
+  websocket.onclose = function(evt) { onClose(evt) };
+  websocket.onmessage = function(evt) { onMessage(evt) };
+  websocket.onerror = function(evt) { onError(evt) };
+}
+
+function onOpen(evt)
+{
+  writeToScreen("CONNECTED");
+  doSend('{jsonrpc: "2.0", method: "WFC_GetConfigurators", params: [], id: 1588239526125}');
+}
+
+function onClose(evt)
+{
+  writeToScreen("DISCONNECTED");
+}
+
+function onMessage(evt)
+{
+  writeToScreen('<span style="color: blue;">RESPONSE: ' + evt.data+'</span>');
+  // websocket.close();
+}
+
+function onError(evt)
+{
+  writeToScreen('<span style="color: red;">ERROR:</span> ' + evt.data);
+}
+
+function doSend(message)
+{
+  writeToScreen("SENT: " + message);
+  websocket.send(message);
+}
+
+function writeToScreen(message)
+{
+  var pre = document.createElement("p");
+  pre.style.wordWrap = "break-word";
+  pre.innerHTML = message;
+  output.appendChild(pre);
+}
+
+window.addEventListener("load", init, false);
+
+</script>
