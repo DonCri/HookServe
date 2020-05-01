@@ -40,27 +40,6 @@
     <?php } ?>
 </div>
 
-<div>
-
-
-
-<dialog id="dialog">
-<? 
-$GetInstance = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
-$Inst = "";
-
-    foreach($GetInstance as $InstanceID) {
-    $InstName = IPS_GetName($InstanceID); ?>
-    
-    <div> <?
-    $Inst = $InstName;
-
-    echo $Inst; ?> </div>
-<? } ?> <a href="#">Schliessen</a>
-    </dialog>
-
-</div>
-
 <div id="output">
 
 </div>
