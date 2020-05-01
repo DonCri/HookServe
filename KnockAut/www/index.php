@@ -51,7 +51,7 @@ $Inst = "";
 
 </div>
 
-<div>
+<div id="websocket">
     <?php include("ws/websocket.html"); ?>
 </div>
 
