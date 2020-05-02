@@ -48,7 +48,9 @@ body {
     font-size: 15px;
     text-align: left top;
     vertical-align: left top;
+    padding-left: 20px;
     padding-top: 100px;
+    padding-bottom: 10px;
     float: left;
     background-position: center;
     background-repeat: no-repeat;

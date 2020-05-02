@@ -36,19 +36,17 @@
     <?php
         $CategoryList = IPS_GetChildrenIDs(33603);
 
-        $Var = "";
-
         foreach($CategoryList as $Category) { 
         
             $CatName = IPS_GetName($Category);?>
             <a href="#dialog"><div id="content">
                     <!-- Modal Trigger -->
-            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var ?></button>
+            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $CatName ?></button>
 
             <!-- Modal Structure -->
             <div id="modal1" class="modal">
                     <div class="modal-content">
-                        <h4> <?php echo $Var ?></h4>
+                        <h4> <?php echo $CatName ?></h4>
                         <p>Hallo Welt</p>
                     </div>
                     <div class="modal-footer">
