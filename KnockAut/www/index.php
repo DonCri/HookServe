@@ -51,25 +51,25 @@
 <!-- Modal Structure -->
 
 <?php
-        $CategoryList = IPS_GetChildrenIDs(33603);
-        $Var = "";
+        $CategoryList2 = IPS_GetChildrenIDs(33603);
+        $Var2 = "";
 
-        foreach($CategoryList as $Category) { 
+        foreach($CategoryList2 as $Category2) { 
         
-            $CatName = IPS_GetName($Category);
-            $Var = $CatName;?>
+            $CatName2 = IPS_GetName($Category2);
+            $Var2 = $CatName2;?>
 
-            <div>
-                                <div id="modal1" class="modal">
-                                    <div class="modal-content">
-                                        <h4> <?php echo $Var; ?></h4>
-                                        <p> <?php echo $Var; ?> </p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
-                                    </div>
-                                </div>          
-            </div>
+                <div>
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <h4> <?php echo $Var2; ?></h4>
+                            <p> <?php echo $Var2; ?> </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
+                        </div>
+                    </div>          
+                </div>
  <?php } ?>
                                 
                             
