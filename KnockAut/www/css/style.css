@@ -52,32 +52,11 @@ body {
     float: left;
     box-sizing: border-box;
     position: relative;
-}
-
-#contentSPAN {
-    color: white;
-    display: table-cell;
-    font-size: 15px;
-    text-align: left top;
-    vertical-align: left top;
-    position: absolute;
-}
-
-dialog:target {
-    display: block;
-    color: ivory;
-    border: chartreuse;
-    align-items: center;
+    width: 33.3333%;
 }
 
 #output {
     color: mintcream;
-}
-
-#modalStyle {
-    display: table-cell;
-    position: absolute;
-    float: bottom;
 }
 
 p {
