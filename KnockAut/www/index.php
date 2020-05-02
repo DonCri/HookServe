@@ -43,7 +43,7 @@
 
             <div id="content">
                             <!-- Modal Trigger -->
-                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo json_encode($Var); ?> </button>
+                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?> </button>
 
                             <!-- Modal Structure -->
                             <div id="modal1" class="modal">
