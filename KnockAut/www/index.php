@@ -43,13 +43,13 @@
 
             <div id="content">
                             <!-- Modal Trigger -->
-                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?> </button>
+                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo json_encode($Var); ?> </button>
 
                             <!-- Modal Structure -->
                             <div id="modal1" class="modal">
                                     <div class="modal-content">
-                                        <h4> <?php echo $Var; ?></h4>
-                                        <p> <?php echo $Var; ?> </p>
+                                        <h4> <?php echo json_encode($Var); ?></h4>
+                                        <p> <?php echo json_encode($Var); ?> </p>
                                     </div>
                                     <div class="modal-footer">
                                         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
