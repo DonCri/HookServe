@@ -77,3 +77,7 @@ dialog:target {
 #output {
     color: mintcream;
 }
+
+button {
+    padding-top: 200px;
+}
