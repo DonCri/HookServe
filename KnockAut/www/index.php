@@ -50,8 +50,7 @@
 
 <!-- Modal Structure -->
 
-<div>
-    <?php
+<?php
         $CategoryList = IPS_GetChildrenIDs(33603);
         $Var = "";
 
@@ -71,8 +70,7 @@
                                     </div>
                                 </div>          
             </div>
-    <?php } ?>
-</div>
+ <?php } ?>
                                 
                             
 
