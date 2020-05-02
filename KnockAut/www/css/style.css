@@ -83,3 +83,7 @@ dialog:target {
     position: absolute;
     float: bottom;
 }
+
+p {
+    color: black;
+}
