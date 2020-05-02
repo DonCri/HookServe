@@ -42,16 +42,20 @@
         
             $CatName = IPS_GetName($Category);?>
             <a href="#dialog"><div id="content">
-                    <div id="modal1" class="modal">
-                        <div class="modal-content">
-                        <h4> <?php echo $CatName; ?> </h4>
+                    <!-- Modal Trigger -->
+            <button id="modalStyle" data-target="modal1" class="btn modal-trigger">Modal</button>
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h4>Modal Header</h4>
                         <p>Hallo Welt</p>
-                        </div>
-                        <div class="modal-footer">
+                    </div>
+                    <div class="modal-footer">
                         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
-                        </div>
                     </div>
-                    </div>
+                </div>
+            </div>
             <span id="contentSPAN"><?php $Var = $CatName; 
             echo $Var; ?></span>
             
@@ -62,7 +66,7 @@
         <button id="modalStyle" data-target="modal1" class="btn modal-trigger">Modal</button>
 
   <!-- Modal Structure -->
-  <!-- <div id="modal1" class="modal">
+  <div id="modal1" class="modal">
     <div class="modal-content">
       <h4>Modal Header</h4>
       <p>Hallo Welt</p>
@@ -71,7 +75,7 @@
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
     </div>
   </div>
-</div> -->
+</div>
 
 <!-- <div id="output"> -->
 <script type="text/javascript" src="js/materialize.min.js"></script>
