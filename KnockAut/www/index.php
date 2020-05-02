@@ -56,9 +56,6 @@
                     </div>
                 </div>
             </div>
-            <span id="contentSPAN"><?php $Var = $CatName; 
-            echo $Var; ?></span>
-            
             </a></div>
     <?php } ?>
        
