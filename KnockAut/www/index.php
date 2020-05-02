@@ -44,7 +44,7 @@
                 <img src="img/Home.png">
             <span id="contentSPAN"><?php $Var = $CatName; 
             echo $Var; ?></span>
-            <dialog id="dialog">
+            <dialog open id="dialog">
                 <? 
                 $GetInstance = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
                 $Inst = "";
