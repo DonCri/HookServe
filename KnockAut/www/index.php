@@ -47,7 +47,7 @@
                             <div id="modal1" class="modal">
                                     <div class="modal-content">
                                         <h4> <?php echo $CatName; ?></h4>
-                                        <p>Hallo Welt</p>
+                                        <p> <?php echo $CatName; ?> </p>
                                     </div>
                                     <div class="modal-footer">
                                         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
