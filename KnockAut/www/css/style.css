@@ -46,12 +46,11 @@ body {
     color: white;
     display: table-cell;
     font-size: 15px;
-    text-align: left top;
-    vertical-align: left top;
     padding: 20px;
     float: left;
     width: 100px;
     height: 100px;
+    box-sizing: border-box;
 }
 
 #contentSPAN {
