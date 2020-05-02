@@ -51,7 +51,7 @@
        
     <!-- Modal Trigger -->
         <button id="modalStyle" data-target="modal1" class="btn modal-trigger">Modal</button>
-        
+
   <!-- Modal Structure -->
   <div id="modal1" class="modal">
     <div class="modal-content">
@@ -63,10 +63,6 @@
     </div>
   </div>
 </div>
-
-
-
-
 
 <!-- <div id="output"> -->
 <script type="text/javascript" src="js/materialize.min.js"></script>
