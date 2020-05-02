@@ -81,5 +81,5 @@ dialog:target {
 #modalStyle {
     display: table-cell;
     position: absolute;
-    float: left;
+    float: bottom;
 }
