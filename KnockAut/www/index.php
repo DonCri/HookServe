@@ -44,9 +44,12 @@
             <div id="content">
                             <!-- Modal Trigger -->
                             <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?> </button>
+            </div>
+    <?php } ?>
+</div>
 
-                            <!-- Modal Structure -->
-                            <div id="modal1" class="modal">
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
                                     <div class="modal-content">
                                         <h4> <?php echo $Var; ?></h4>
                                         <p> <?php echo $Var; ?> </p>
@@ -56,9 +59,6 @@
                                     </div>
                                 </div>
                             </div>
-            </div>
-    <?php } ?>
-</div>
 
 
 <!-- <div id="output"> -->
