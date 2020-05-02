@@ -41,7 +41,7 @@
             $CatName = IPS_GetName($Category);?>
             <div id="content">
                             <!-- Modal Trigger -->
-                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $CatName ?> </button>
+                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $CatName; ?> </button>
 
                             <!-- Modal Structure -->
                             <div id="modal1" class="modal">
