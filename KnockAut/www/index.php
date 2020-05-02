@@ -49,7 +49,7 @@
 </div>
 
 <!-- Modal Structure -->
-<div id="modal1" class="modal">
+                                <div id="modal1" class="modal">
                                     <div class="modal-content">
                                         <h4> <?php echo $Var; ?></h4>
                                         <p> <?php echo $Var; ?> </p>
@@ -58,7 +58,7 @@
                                         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
                                     </div>
                                 </div>
-                            </div>
+                            
 
 
 <!-- <div id="output"> -->
