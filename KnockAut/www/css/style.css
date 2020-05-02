@@ -49,9 +49,10 @@ body {
     color: white;
     display: table-cell;
     font-size: 15px;
-    padding: 20px;
+    padding: 20px 20px;
     float: left;
-    width: 20%;
+    box-sizing: border-box;
+    width: 33%;
 }
 
 #output {
