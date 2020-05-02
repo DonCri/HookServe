@@ -49,6 +49,18 @@
 </div>
 
 <!-- Modal Structure -->
+
+<div>
+    <?php
+        $CategoryList = IPS_GetChildrenIDs(33603);
+        $Var = "";
+
+        foreach($CategoryList as $Category) { 
+        
+            $CatName = IPS_GetName($Category);
+            $Var = $CatName;?>
+
+            <div>
                                 <div id="modal1" class="modal">
                                     <div class="modal-content">
                                         <h4> <?php echo $Var; ?></h4>
@@ -57,7 +69,11 @@
                                     <div class="modal-footer">
                                         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
                                     </div>
-                                </div>
+                                </div>          
+            </div>
+    <?php } ?>
+</div>
+                                
                             
 
 
