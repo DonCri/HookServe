@@ -63,7 +63,7 @@
     <?php } ?>
        
     <!-- Modal Trigger -->
-        <button id="modalStyle" data-target="modal1" class="btn modal-trigger">Modal</button>
+   <!--     <button id="modalStyle" data-target="modal1" class="btn modal-trigger">Modal</button> -->
 
   <!-- Modal Structure -->
  <!-- <div id="modal1" class="modal">
