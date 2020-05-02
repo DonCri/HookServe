@@ -49,7 +49,7 @@
     <?php } ?>
 
         <!-- Modal Trigger -->
-<button data-target="modal1" class="btn modal-trigger">Modal</button>
+<button id="modalStyle" data-target="modal1" class="btn modal-trigger">Modal</button>
     <!-- Modal Trigger -->
 <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> --> 
 

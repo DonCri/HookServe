@@ -78,6 +78,6 @@ dialog:target {
     color: mintcream;
 }
 
-.btn modal-trigger {
+#modalStyle {
     padding-top: 200px;
 }
