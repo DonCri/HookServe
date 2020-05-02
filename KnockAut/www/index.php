@@ -42,7 +42,16 @@
         
             $CatName = IPS_GetName($Category);?>
             <a href="#dialog"><div id="content">
-                <img src="img/Home.png">
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                        <h4> <?php echo $CatName; ?> </h4>
+                        <p>Hallo Welt</p>
+                        </div>
+                        <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
+                        </div>
+                    </div>
+                    </div>
             <span id="contentSPAN"><?php $Var = $CatName; 
             echo $Var; ?></span>
             
@@ -59,7 +68,7 @@
       <p>Hallo Welt</p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
     </div>
   </div>
 </div>
