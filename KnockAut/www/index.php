@@ -48,7 +48,7 @@
             <!-- Modal Structure -->
             <div id="modal1" class="modal">
                     <div class="modal-content">
-                        <h4>Modal Header</h4>
+                        <h4> <?php echo $CatName ?></h4>
                         <p>Hallo Welt</p>
                     </div>
                     <div class="modal-footer">
@@ -56,8 +56,6 @@
                     </div>
                 </div>
             </div>
-            <span id="contentSPAN"><?php $Var = $CatName; 
-            echo $Var; ?></span>
             
             </a></div>
     <?php } ?>
