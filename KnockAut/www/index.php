@@ -39,22 +39,22 @@
         foreach($CategoryList as $Category) { 
         
             $CatName = IPS_GetName($Category);?>
-            <a href="#dialog"><div id="content">
-                    <!-- Modal Trigger -->
-            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $CatName ?></button>
+            <div id="content">
+                            <!-- Modal Trigger -->
+                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $CatName ?> </button>
 
-            <!-- Modal Structure -->
-            <div id="modal1" class="modal">
-                    <div class="modal-content">
-                        <h4> <?php echo $CatName ?></h4>
-                        <p>Hallo Welt</p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
-                    </div>
-                </div>
+                            <!-- Modal Structure -->
+                            <div id="modal1" class="modal">
+                                    <div class="modal-content">
+                                        <h4> <?php echo $CatName ?></h4>
+                                        <p>Hallo Welt</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
+                                    </div>
+                                </div>
+                            </div>
             </div>
-            </a></div>
     <?php } ?>
        
     <!-- Modal Trigger -->
