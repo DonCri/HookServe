@@ -42,7 +42,7 @@ body {
     padding-top: 20px;
     float: left;
     box-sizing: border-box;
-    position: relative;
+    position: static;
 }
 
 #content {
@@ -53,7 +53,7 @@ body {
     float: left;
     box-sizing: border-box;
     width: 20%;
-    position: relative;
+    position: static;
 }
 
 #output {
