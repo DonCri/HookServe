@@ -26,13 +26,16 @@
         include('ws/websocket.html');
     ?>
 
+
+
+<div>
+<div id="nav">
+
 <div id="titelbalken">
     <div id="titel">My House</div>
     <div id="titelUpdate"> <p><a href="module_update.php"><img id="ModuleUpdate" src="img/update_v2.png"></a></p> </div>
 </div>
 
-<div>
-<div id="nav">
     <?php
         $CategoryList = IPS_GetChildrenIDs(33603);
         $Var = "";
