@@ -79,6 +79,6 @@ dialog:target {
 }
 
 #modalStyle {
-    padding-top: 200px;
-    color: mintcream;
+    display: table-cell;
+    position: relative;
 }
