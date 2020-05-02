@@ -49,6 +49,7 @@ body {
     padding: 100px 20px;
     float: left;
     box-sizing: border-box;
+    position: relative;
 }
 
 #contentSPAN {
