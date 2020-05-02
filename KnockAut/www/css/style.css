@@ -53,7 +53,7 @@ body {
     float: left;
     box-sizing: border-box;
     width: 20%;
-    position: static;
+    position: relative;
 }
 
 #output {
