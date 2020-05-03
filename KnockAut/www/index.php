@@ -63,6 +63,8 @@
                                     $InstanceList = IPS_GetChildrenIDs($CategoryList[0]);
                                     $Inst = ""; 
 
+                                    var_dump($InstanceList);
+
                                     foreach($InstanceList as $Instance) { 
                                     
                                         $InstanceName = IPS_GetName($Instance);
