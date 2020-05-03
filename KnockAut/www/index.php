@@ -67,7 +67,7 @@
                                     
                                         $InstanceName = IPS_GetName($Instance);
                                         $Inst = $InstanceName;
-                                        echo $InstanceList["1"]; } 
+                                        echo $InstanceList[1]; } 
                                 ?> </div>
                         </div>
                         <div class="modal-footer">
