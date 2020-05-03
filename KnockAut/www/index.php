@@ -66,7 +66,7 @@
                                     foreach($InstanceList as $Instance) { 
                                     
                                         $InstanceName = IPS_GetName($Instance);
-                                        $Ins = $InstanceName;
+                                        $Inst = $InstanceName;
                                         echo $Inst; } 
                                 ?> </div>
                         </div>
