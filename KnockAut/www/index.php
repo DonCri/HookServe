@@ -56,14 +56,13 @@
 
         foreach($CategoryList2 as $Category2) { 
         
-            $CatName2 = IPS_GetName($Category2);
-            $Var2 = $CatName2;?>
+            $CatName2 = IPS_GetName($Category2);?>
 
                 <div>
                     <div id="modal1" class="modal">
                         <div class="modal-content">
-                            <h4> <?php echo $Var2; ?></h4>
-                            <p> <?php echo $Var2; ?> </p>
+                            <h4> <?php echo $CatName2; ?></h4>
+                            <p> <?php echo $CatName2; ?> </p>
                         </div>
                         <div class="modal-footer">
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
