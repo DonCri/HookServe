@@ -52,15 +52,14 @@
     <?php } ?>
 </div>
 
-<!-- Modal Structure -->
 
-
+<!-- Test für ein automatisch generierter Inhalt vom Modal -->
 
                 <div>
                     <div id="modal1" class="modal">
                         <div class="modal-content">
                             <h4> <?php echo $Var; ?> </h4>
-                            <p> <?php
+                            <div> <?php
                                     $CategoryList2 = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
                                     $Var2 = "";
 
@@ -68,8 +67,8 @@
                                     
                                         $CatName2 = IPS_GetName($Category2);
                                         $Var2 = $CatName2; ?>
-                                        <div> <?php echo $Var2; } 
-                                ?> </div> </p>
+                                        <?php echo $Var2; } 
+                                ?> </div>
                         </div>
                         <div class="modal-footer">
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
@@ -78,7 +77,8 @@
                 </div>
  
 
-<!-- <div id="output"> -->
+<!-- <div id="output"> --> <!-- Ist der Output vom Websocket -->
+
 <script type="text/javascript" src="js/materialize.min.js"></script>
 
 </body>
