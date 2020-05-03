@@ -60,8 +60,8 @@
                         <div class="modal-content">
                             <h4> <?php echo $Var; ?> </h4>
                             <div> <?php
-                                    $InstanceList = IPS_GetChildrenIDs($CategoryList[0], 33603);
-                                    $Inst = "";
+                                    $InstanceList = IPS_GetChildrenIDs($CategoryList[1], 33603);
+                                    $Inst = ""; 
 
                                     foreach($InstanceList as $Instance) { 
                                     
