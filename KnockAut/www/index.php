@@ -43,7 +43,7 @@
         <li class="tab col s3"><a href="#test4">Test 4</a></li>
       </ul>
     </div>
-    <div id="test1" class="col s12"> <div> <?php
+    <div id="test1" class="col s12"> <div id="content"> <?php
                                             $CategoryList = IPS_GetChildrenIDs(33603);
                                             $Var = "";
 
