@@ -66,8 +66,8 @@
                                     foreach($CategoryList2 as $Category2) { 
                                     
                                         $CatName2 = IPS_GetName($Category2);
-                                        $Var2 = $CatName2; ?>
-                                        <?php echo $Var2; } 
+                                        $Var2 = $CatName2;
+                                        echo $Var2; } 
                                 ?> </div>
                         </div>
                         <div class="modal-footer">
