@@ -61,6 +61,54 @@ body {
     position: relative;
 }
 
+#test1 {
+    color: white;
+    display: table-cell;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px ;
+    padding-bottom: 5px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#test2 {
+    color: white;
+    display: table-cell;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px ;
+    padding-bottom: 5px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#test3 {
+    color: white;
+    display: table-cell;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px ;
+    padding-bottom: 5px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#test4 {
+    color: white;
+    display: table-cell;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px ;
+    padding-bottom: 5px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
 #output {
     color: mintcream;
 }
