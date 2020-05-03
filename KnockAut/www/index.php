@@ -54,27 +54,27 @@
 
 <!-- Modal Structure -->
 
-<?php
+
+
+                <div>
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <h4> Test </h4>
+                            <p> <?php
         $CategoryList2 = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
         $Var2 = "";
 
         foreach($CategoryList2 as $Category2) { 
         
             $CatName2 = IPS_GetName($Category2);
-            $Var2 .= $CatName2; ?>
-
-                <div>
-                    <div id="modal1" class="modal">
-                        <div class="modal-content">
-                            <h4> Test </h4>
-                            <p> <?php echo $Var2; ?> </p>
+            $Var2 .= $CatName2; ?> </p>
                         </div>
                         <div class="modal-footer">
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
                         </div>
                     </div>          
                 </div>
- <?php } ?>
+<!-- <?php } ?> -->
 
 <!-- <div id="output"> -->
 <script type="text/javascript" src="js/materialize.min.js"></script>
