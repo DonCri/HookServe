@@ -43,7 +43,7 @@
 
             <div id="content">
                             <!-- Modal Trigger -->
-                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger" style="width: 30px"> <?php echo $Var; ?> </button>
+                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger" style="width: 100px"> <?php echo $Var; ?> </button>
             </div>
     <?php } ?>
 </div>
