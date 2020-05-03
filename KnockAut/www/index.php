@@ -50,19 +50,28 @@
 
 <!-- Modal Structure -->
 
-<?php
-        $CategoryList2 = IPS_GetChildrenIDs(33603);
-        $Var2 = "";
+    <?php
+            $CategoryList2 = IPS_GetChildrenIDs(33603);
+            $Var2 = "";
 
-        foreach($CategoryList2 as $Category2) { 
-        
-            $CatName2 = IPS_GetName($Category2);
-            $Var2 = $CatName2;?>
+            foreach($CategoryList2 as $Category2) { 
+            
+                $CatName2 = IPS_GetName($Category2);
+                $Var2 = $CatName2;
+            }?>
 
                 <div>
                     <div id="modal1" class="modal">
                         <div class="modal-content">
-                            <h4> <?php echo $Var2; ?></h4>
+                            <h4>     <?php
+                                        $CategoryList2 = IPS_GetChildrenIDs(33603);
+                                        $Var2 = "";
+
+                                        foreach($CategoryList2 as $Category2) { 
+                                        
+                                            $CatName2 = IPS_GetName($Category2);
+                                            echo $CatName2;
+                                        }?></h4>
                             <p> <?php echo $Var2; ?> </p>
                         </div>
                         <div class="modal-footer">
@@ -70,7 +79,6 @@
                         </div>
                     </div>          
                 </div>
- <?php } ?>
 
 <!-- <div id="output"> -->
 <script type="text/javascript" src="js/materialize.min.js"></script>
