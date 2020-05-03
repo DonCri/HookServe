@@ -67,9 +67,9 @@
                                     foreach($CategoryList2 as $Category2) { 
                                     
                                         $CatName2 = IPS_GetName($Category2);
-                                        $Var2 = $CatName2;
-                                        echo $Var2; } 
-                                ?> </p>
+                                        $Var2 = $CatName2; ?>
+                                        <div> <?php echo $Var2; } 
+                                ?> </div> </p>
                         </div>
                         <div class="modal-footer">
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
