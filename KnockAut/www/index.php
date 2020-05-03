@@ -61,14 +61,15 @@
                         <div class="modal-content">
                             <h4> Test </h4>
                             <p> <?php
-        $CategoryList2 = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
-        $Var2 = "";
+                                    $CategoryList2 = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
+                                    $Var2 = "";
 
-        foreach($CategoryList2 as $Category2) { 
-        
-            $CatName2 = IPS_GetName($Category2);
-            $Var2 .= $CatName2;
-            echo $Var2; } ?> </p>
+                                    foreach($CategoryList2 as $Category2) { 
+                                    
+                                        $CatName2 = IPS_GetName($Category2);
+                                        $Var2 = $CatName2;
+                                        echo $Var2; } 
+                                ?> </p>
                         </div>
                         <div class="modal-footer">
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
