@@ -39,7 +39,7 @@
             <div class="col s12">
                 <ul class="tabs">
                     <li class="tab col s3"><a href="#test1">My House</a></li>
-                    <li class="tab col s3"><a class="active" href="#test2">Tab 2</a></li>
+                    <li class="tab col s3"><a class="active" href="#test2">Tab 2asdasddas</a></li>
                     <li class="tab col s3"><a href="#test3">Tab 3</a></li>
                     <li class="tab col s3"><a href="#test4">Tab 4</a></li>
                 </ul>
