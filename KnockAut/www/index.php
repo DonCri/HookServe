@@ -59,7 +59,7 @@
                 <div>
                     <div id="modal1" class="modal">
                         <div class="modal-content">
-                            <h4> Test </h4>
+                            <h4> <?php echo $Var; ?> </h4>
                             <p> <?php
                                     $CategoryList2 = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
                                     $Var2 = "";
