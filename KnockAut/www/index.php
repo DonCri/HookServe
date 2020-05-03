@@ -62,7 +62,7 @@
                 <div>
                     <div id="modal1" class="modal">
                         <div class="modal-content">
-                            <h4> <?php echo $Var2; ?></h4>
+                            <h4> Test </h4>
                             <p> <?php echo $Var2; ?> </p>
                         </div>
                         <div class="modal-footer">
