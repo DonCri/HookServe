@@ -63,11 +63,11 @@
                                     $InstanceList = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
                                     $Inst = "";
 
-                                    foreach($InstanceList as $Instance) { 
+                                    /* foreach($InstanceList as $Instance) { 
                                     
                                         $InstanceName = IPS_GetName($Instance);
-                                        $Inst = $InstanceName;
-                                        echo $InstanceList[1]; } 
+                                        $Inst = $InstanceName; */
+                                        echo $InstanceList[1]; /* } */ 
                                 ?> </div>
                         </div>
                         <div class="modal-footer">
