@@ -68,3 +68,7 @@ p {
 h4 {
     color: black;
 }
+
+#modalStyle {
+    width: 100px;
+}
