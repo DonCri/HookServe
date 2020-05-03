@@ -60,14 +60,14 @@
                         <div class="modal-content">
                             <h4> <?php echo $Var; ?> </h4>
                             <div> <?php
-                                    $CategoryList2 = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
-                                    $Var2 = "";
+                                    $InstanceList = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
+                                    $Inst = "";
 
-                                    foreach($CategoryList2 as $Category2) { 
+                                    foreach($InstanceList as $Instance) { 
                                     
-                                        $CatName2 = IPS_GetName($Category2);
-                                        $Var2 = $CatName2;
-                                        echo $Var2; } 
+                                        $InstanceName = IPS_GetName($Instance);
+                                        $Ins = $InstanceName;
+                                        echo $Inst; } 
                                 ?> </div>
                         </div>
                         <div class="modal-footer">
