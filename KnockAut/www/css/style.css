@@ -45,6 +45,10 @@ body {
     position: relative;
 }
 
+#modalStyle {
+    width: 100px;
+}
+
 #content {
     color: white;
     display: table-cell;
@@ -69,6 +73,3 @@ h4 {
     color: black;
 }
 
-#modalStyle {
-    width: 100px;
-}
