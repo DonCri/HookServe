@@ -34,6 +34,7 @@
 
 <div id="nav">
 
+<div id="content">
 <div class="row">
     <div class="col s12">
       <ul class="tabs">
@@ -43,25 +44,26 @@
         <li class="tab col s3"><a href="#test4">Test 4</a></li>
       </ul>
     </div>
-    <div id="test1" class="col s12"> <div id="content"> <?php
-                                            $CategoryList = IPS_GetChildrenIDs(33603);
-                                            $Var = "";
+        <div id="test1" class="col s12"> <div id="content"> <?php
+                                                $CategoryList = IPS_GetChildrenIDs(33603);
+                                                $Var = "";
 
-                                            foreach($CategoryList as $Category) { 
-                                            
-                                                $CatName = IPS_GetName($Category);
-                                                $Var = $CatName;?>
+                                                foreach($CategoryList as $Category) { 
+                                                
+                                                    $CatName = IPS_GetName($Category);
+                                                    $Var = $CatName;?>
 
-                                                <div id="content">
-                                                                <!-- Modal Trigger -->
-                                                                <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?> </button>
-                                                </div>
-                                        <?php } ?> </div>
-    </div>
+                                                    <div id="content">
+                                                                    <!-- Modal Trigger -->
+                                                                    <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?> </button>
+                                                    </div>
+                                            <?php } ?> </div>
+        </div>
     <div id="test2" class="col s12">Test 2</div>
     <div id="test3" class="col s12">Test 3</div>
     <div id="test4" class="col s12">Test 4</div>
   </div>
+</div>
 </div>
 
 
