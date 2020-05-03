@@ -67,14 +67,15 @@
         foreach($CategoryList2 as $Category2) { 
         
             $CatName2 = IPS_GetName($Category2);
-            $Var2 = $CatName2; } ?> </p>
+            $Var2 .= $CatName2;
+            echo $Var2; } ?> </p>
                         </div>
                         <div class="modal-footer">
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
                         </div>
                     </div>          
                 </div>
-
+ 
 
 <!-- <div id="output"> -->
 <script type="text/javascript" src="js/materialize.min.js"></script>
