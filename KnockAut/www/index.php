@@ -51,7 +51,7 @@
 <!-- Modal Structure -->
 
 <?php
-        $CategoryList2 = IPS_GetChildrenIDs(IPS_GetCategoryIDByName($Var, 33603));
+        $CategoryList2 = IPS_GetChildrenIDs(IPS_GetCategoryIDByName("$Var", 33603));
         $Var2 = "";
 
         foreach($CategoryList2 as $Category2) { 
