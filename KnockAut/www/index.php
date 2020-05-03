@@ -32,7 +32,6 @@
     <div id="titelUpdate"> <p><a href="module_update.php"><img id="ModuleUpdate" src="img/update_v2.png"></a></p> </div>
 </div>
 
-<div id="nav">
 
     <div id="content">
         <div class="row">
@@ -64,7 +63,7 @@
             <div id="test4" class="col s12">Test 4</div>
         </div>
     </div>
-</div>
+
 
 
 
