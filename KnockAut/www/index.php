@@ -41,7 +41,7 @@
         <li class="tab"><a href="#test4">Test 4</a></li>
         <li class="tab"><a href="#test0">Test 5</a></li>
     </ul> -->
-    <div id="test1" class="col s12">
+    <!-- <div id="test1" class="col s12"> -->
                                                     <p id="content"> <?php
                                                         $CategoryList = IPS_GetChildrenIDs(33603);
                                                         $Var = "";
@@ -56,11 +56,11 @@
                                                                             
                                                             </div>
                                                     <?php } ?> </p>
-        </div>
+       <!-- </div>
     <div id="test2" class="col s12"><p>Test 2</p></div>
     <div id="test3" class="col s12"><p>Test 3</p></div>
     <div id="test4" class="col s12"><p>Test 4</p></div>
-    <div id="test0" class="col s12"><p>Test 5</p></div>
+    <div id="test0" class="col s12"><p>Test 5</p></div> -->
 </div>
 
 
