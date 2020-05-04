@@ -34,13 +34,13 @@
 
 <div id="nav">
 
-    <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+   <!-- <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
         <li class="tab"><a class="active" href="#test1">My House</a></li>
         <li class="tab"><a href="#test2">Test 2</a></li>
         <li class="tab"><a href="#test3">Disabled Tab</a></li>
         <li class="tab"><a href="#test4">Test 4</a></li>
         <li class="tab"><a href="#test0">Test 5</a></li>
-    </ul>
+    </ul> -->
     <div id="test1" class="col s12">
                                                     <p id="content"> <?php
                                                         $CategoryList = IPS_GetChildrenIDs(33603);
@@ -52,8 +52,8 @@
                                                             $Var = $CatName;?>
 
                                                             <div id="content">
-                                                                            <!-- Modal Trigger -->
-                                                                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?> </button>
+                                                                <li class="tab"><a href="#test2"><?php echo $Var ?></a></li>     
+                                                                            
                                                             </div>
                                                     <?php } ?> </p>
         </div>
@@ -64,8 +64,8 @@
 </div>
 
 
-
-
+<!-- Modal Trigger -->
+<button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?> </button>
 
 
 <!-- Test für ein automatisch generierter Inhalt vom Modal -->
