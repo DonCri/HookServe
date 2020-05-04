@@ -52,7 +52,7 @@
                                                             $Var = $CatName;?>
 
                                                             <div id="content">
-                                                                <li class="tab"><a href="#test2"><?php echo $Var ?></a></li>     
+                                                                 <ul class="tabs tabs-fixed-width tab-demo z-depth-1"> <li class="tab"><a href="#test2"><?php echo $Var ?></a></li>   </ul>   
                                                                             
                                                             </div>
                                                     <?php } ?> </p>
