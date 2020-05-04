@@ -34,14 +34,14 @@
 
 <div id="nav">
 
-   <!-- <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+    <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
         <li class="tab"><a class="active" href="#test1">My House</a></li>
         <li class="tab"><a href="#test2">Test 2</a></li>
         <li class="tab"><a href="#test3">Disabled Tab</a></li>
         <li class="tab"><a href="#test4">Test 4</a></li>
         <li class="tab"><a href="#test0">Test 5</a></li>
-    </ul> -->
-    <!-- <div id="test1" class="col s12"> -->
+    </ul>
+    <div id="test1" class="col s12">
                                                     <p id="content"> <?php
                                                         $CategoryList = IPS_GetChildrenIDs(33603);
                                                         $Var = "";
@@ -52,20 +52,20 @@
                                                             $Var = $CatName;?>
 
                                                             <div id="content">
-                                                                 <ul class="tabs tabs-fixed-width tab-demo z-depth-1"> <li class="tab"><a href="#test2"><?php echo $Var ?></a></li>   </ul>   
-                                                                            
+                                                                            <!-- Modal Trigger -->
+                                                                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?> </button>
                                                             </div>
                                                     <?php } ?> </p>
-      <!-- </div> -->
+        </div>
     <div id="test2" class="col s12"><p>Test 2</p></div>
     <div id="test3" class="col s12"><p>Test 3</p></div>
     <div id="test4" class="col s12"><p>Test 4</p></div>
-    <div id="test0" class="col s12"><p>Test 5</p></div> 
+    <div id="test0" class="col s12"><p>Test 5</p></div>
 </div>
 
 
-<!-- Modal Trigger -->
-<button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?> </button>
+
+
 
 
 <!-- Test für ein automatisch generierter Inhalt vom Modal -->
