@@ -24,7 +24,7 @@
 <body>
 
 <?php
-        include('ws/websocket.html');
+        include ('ws/websocket.html');
     ?>
 
 <div id="titelbalken">
@@ -53,14 +53,14 @@
 
                                                             <div id="content">
                                                                             <!-- Modal Trigger -->
-                                                                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?> </button>
+                                                                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?></button>
                                                             </div>
                                                     <?php } ?> </p>
         </div>
-    <div id="test2" class="col s12"><p>Test 2</p></div>
-    <div id="test3" class="col s12"><p>Test 3</p></div>
-    <div id="test4" class="col s12"><p>Test 4</p></div>
-    <div id="test0" class="col s12"><p>Test 5</p></div>
+    <div id="test2" class="col s5"><p>Test 2</p></div>
+    <div id="test3" class="col s5"><p>Test 3</p></div>
+    <div id="test4" class="col s5"><p>Test 4</p></div>
+    <div id="test0" class="col s5"><p>Test 5</p></div>
 </div>
 
 
