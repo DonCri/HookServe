@@ -99,7 +99,7 @@
                     <div id="modal2" class="modal">
                         <div class="modal-content">
                             <h4> Monitoring </h4>
-                            <p id="output"> </p> <!-- Ist der Output vom Websocket -->
+                            <p> </p> <!-- Ist der Output vom Websocket -->
                         </div>
                     </div>
                         <div class="modal-footer">
