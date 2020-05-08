@@ -72,7 +72,7 @@
 
                 <div>
                     <div id="modal1" class="modal">
-                        <div class="modal-content">
+                        <div class="modal-content modal-fixed-footer">
                             <h4> <?php echo $Var; ?> </h4>
                             <div> <?php
                                     $InstanceList = IPS_GetChildrenIDs($CategoryList[0]);
@@ -96,7 +96,7 @@
  <!-- Monitor Inhalt vom Modal Output vom WebSocket -->
 
  <div>
-                    <div id="modal2" class="modal">
+                    <div id="modal2" class="modal modal-fixed-footer">
                         <div class="modal-content">
                             <h4> Monitoring </h4>
                             <p> <div id="output"></div> </p> <!-- Ist der Output vom Websocket -->
