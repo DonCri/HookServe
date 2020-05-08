@@ -51,7 +51,7 @@
                                                             $CatName = IPS_GetName($Category);
                                                             $Var = $CatName;?>
 
-                                                            <div id="content" class="col s12">
+                                                            <div>
                                                                             <!-- Modal Trigger -->
                                                                             <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?></button>
                                                             </div>
