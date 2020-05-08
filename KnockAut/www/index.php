@@ -99,13 +99,14 @@
                     <div id="modal2" class="modal">
                         <div class="modal-content">
                             <h4> Monitoring </h4>
-                            <div id="output"> </div> <!-- Ist der Output vom Websocket -->
+                            <p id="output"> </p> <!-- Ist der Output vom Websocket -->
                         </div>
+                    </div>
                         <div class="modal-footer">
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
                         </div>
                     </div>          
-                </div>
+</div>
 
 
 
