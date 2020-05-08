@@ -71,8 +71,8 @@
 <!-- Test für ein automatisch generierter Inhalt vom Modal -->
 
                 <div>
-                    <div id="modal1" class="modal">
-                        <div class="modal-content modal-fixed-footer">
+                    <div id="modal1" class="modal modal-fixed-footer">
+                        <div class="modal-content">
                             <h4> <?php echo $Var; ?> </h4>
                             <div> <?php
                                     $InstanceList = IPS_GetChildrenIDs($CategoryList[0]);
