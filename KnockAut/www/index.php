@@ -95,7 +95,7 @@
  
  <!-- Monitor Inhalt vom Modal Output vom WebSocket -->
 
- <div>
+ <div id="Text">
                     <div id="modal2" class="modal modal-fixed-footer">
                         <div class="modal-content">
                             <h4> Monitoring </h4>
