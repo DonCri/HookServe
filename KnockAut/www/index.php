@@ -101,11 +101,11 @@
                             <h4> Monitoring </h4>
                             <p> <div id="output"></div> </p> <!-- Ist der Output vom Websocket -->
                         </div>
-                    </div>
+                    <!-- </div>
                         <div class="modal-footer">
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
                         </div>
-                    </div>          
+                    </div>      -->    
 </div>
 
 
