@@ -76,7 +76,7 @@
                                     $CategoryList2 = IPS_GetChildrenIDs(33603);
 
                                     foreach($CategoryList2 as $Category2) {
-                                        $InstanceList = IPS_GetChildrenIDs($Category2; 
+                                        $InstanceList = IPS_GetChildrenIDs($Category2); 
                                         foreach($InstanceList as $Instance) {
                                             $InstanceName = IPS_GetName($Instance);
                                             echo $InstanceName; } }
