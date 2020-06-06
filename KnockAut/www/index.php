@@ -71,7 +71,7 @@
                 <div>
                     <div id="modal1" class="modal modal-fixed-footer">
                         <div class="modal-content">
-                            <h4> <?php echo $Var; ?> </h4>
+                            <h4> <?php echo $CatName; ?> </h4>
                             <div> <?php
                                     $CategoryList2 = IPS_GetChildrenIDs(33603);
 
