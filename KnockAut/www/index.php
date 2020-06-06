@@ -78,7 +78,7 @@
                                     foreach($CategoryList2 as $Instance) { 
                                         $InstanceList = IPS_GetChildrenIDs($Instance);
                                         // $InstanceName = IPS_GetName($InstanceList);
-                                        echo $InstanceList; } 
+                                        var_dump($InstanceList); } 
                                 ?> </div>
                         </div>
                         <div class="modal-footer">
