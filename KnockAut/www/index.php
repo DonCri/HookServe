@@ -53,7 +53,7 @@
 
                                                             <div id="content">
                                                                             <!-- Modal Trigger -->
-                                                                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?></button>
+                                                                            <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $CatName; ?></button>
                                                             </div>  
                                                             <?php } ?> </p>
         </div>
