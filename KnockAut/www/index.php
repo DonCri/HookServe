@@ -55,7 +55,17 @@
                                                                             <!-- Modal Trigger -->
                                                                             <button id="modalStyle" data-target="modal1" class="btn modal-trigger"> <?php echo $Var; ?></button>
                                                             </div>
-                                                    <?php } ?> </p>
+                                                          <?php  $InstanceList = IPS_GetChildrenIDs($CategoryList[0]);
+                                    $Inst = ""; 
+
+                                    var_dump($CategoryList);
+
+                                    foreach($InstanceList as $Instance) { 
+                                    
+                                        $InstanceName = IPS_GetName($Instance);
+                                        $Inst = $InstanceName; 
+                                        echo $Inst; } 
+                                                    } ?> </p>
         </div>
     <div id="test2" class="col s12"><p><button id="modalStyle" data-target="modal2" class="btn modal-trigger"> WebSocket</button></p></div>
     <div id="test3" class="col s12"><p>Test 3</p></div>
@@ -70,6 +80,7 @@
 
 <!-- Test für ein automatisch generierter Inhalt vom Modal -->
 
+<!--
                 <div>
                     <div id="modal1" class="modal modal-fixed-footer">
                         <div class="modal-content">
@@ -92,6 +103,7 @@
                         </div>
                     </div>          
                 </div>
+                                    -->
  
  <!-- Monitor Inhalt vom Modal Output vom WebSocket -->
 
