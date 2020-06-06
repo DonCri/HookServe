@@ -32,7 +32,7 @@
     <div id="titelUpdate"> <p><a href="module_update.php"><img id="ModuleUpdate" src="img/update_v2.png"></a></p> </div>
 </div>
 
-<div id="nav" class="container">
+<div class="container">
 
     <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
         <li class="tab"><a class="active" href="#test1">My House</a></li>
