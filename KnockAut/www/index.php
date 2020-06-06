@@ -44,12 +44,10 @@
     <div id="test1" class="col s12">
                                                     <p id="content"> <?php
                                                         $CategoryList = IPS_GetChildrenIDs(33603);
-                                                        $Var = "";
 
                                                         foreach($CategoryList as $Category) { 
                                                         
-                                                            $CatName = IPS_GetName($Category);
-                                                            $Var = $CatName;?>
+                                                            $CatName = IPS_GetName($Category); ?>
 
                                                             <div id="content">
                                                                             <!-- Modal Trigger -->
@@ -76,13 +74,11 @@
                             <h4> <?php echo $Var; ?> </h4>
                             <div> <?php
                                     $CategoryList2 = IPS_GetChildrenIDs(33603);
-                                    $Inst = ""; 
 
                                     foreach($CategoryList2 as $Instance) { 
                                         $InstanceList = IPS_GetChildrenIDs($Instance);
                                         $InstanceName = IPS_GetName($InstanceList);
-                                        $Inst = $InstanceName; 
-                                        echo $Inst; } 
+                                        echo $InstanceName; } 
                                 ?> </div>
                         </div>
                         <div class="modal-footer">
