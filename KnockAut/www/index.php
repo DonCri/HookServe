@@ -75,11 +75,11 @@
                             <div> <?php
                                     $CategoryList2 = IPS_GetChildrenIDs(33603);
 
-                                    foreach($CategoryList2 as $Category2) { 
-                                        foreach($Category2 as $Instance) {
-                                            $InstanceList = IPS_GetChildrenIDs($Instance);
-                                            $InstanceName = IPS_GetName($InstanceList);
-                                            var_dump($InstanceName); } }
+                                    foreach($CategoryList2 as $Category2) {
+                                        $InstanceList = IPS_GetChildrenIDs($Category2; 
+                                        foreach($InstanceList as $Instance) {
+                                            $InstanceName = IPS_GetName($Instance);
+                                            echo $InstanceName; } }
                                 ?> </div>
                         </div>
                         <div class="modal-footer">
