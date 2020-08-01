@@ -5,7 +5,7 @@ $CatLists = "";
 
 foreach ($CategoryList as $Category) {
     $CategoryName = IPS_GetName($Category);
-    $CatLists.= $CategoryName;
+    // $CatLists.= $CategoryName;
 
-    echo($CatLists);
+    echo($CategoryName);
 }
