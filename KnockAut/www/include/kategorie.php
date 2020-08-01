@@ -3,4 +3,4 @@
 $Websocket = '<p id="output"></p>';
 $WSarray = explode(":", $Websocket);
 
-echo $WSarray;
+print_r($WSarray);
