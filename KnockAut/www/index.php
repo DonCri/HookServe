@@ -30,8 +30,8 @@
 <div class="row">
     <div class="col s12">
       <ul class="tabs">
-        <li class="tab col s3"><a href="#test1">My House</a></li>
-        <li class="tab col s3"><a class="active" href="#test2">WebSocket</a></li>
+        <li class="tab col s3"><a class="active" href="#test1">My House</a></li>
+        <li class="tab col s3"><a href="#test2">WebSocket</a></li>
         <li class="tab col s3 disabled"><a href="#test3">Disabled Tab</a></li>
         <li class="tab col s3"><a href="#test4">Update</a></li>
       </ul>
