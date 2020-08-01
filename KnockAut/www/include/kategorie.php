@@ -1,14 +1,7 @@
 <?
 
-$CategoryList = IPS_GetChildrenIDs(33603);
-$CatLists = "";
+$Websocket = '<p id="output"></p>';
 
-foreach ($CategoryList as $Category) {
-    $CategoryName = IPS_GetName($Category);
+$WebsocketARRAY = explode(":", $Websocket);
 
-    echo("$CategoryName <br>");
-}
-
-$TEST = '<p id="output"></p>';
-
-echo $TEST;
+print_r($WebsocketARRAY);
