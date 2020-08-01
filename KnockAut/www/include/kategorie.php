@@ -1,6 +1,6 @@
 <?
 
 $Websocket = '<p id="output"></p>';
-$WSarray = preg_split("SenderID", $Websocket);
+$WSarray = explode(":", $Websocket);
 
 print_r($Websocket);
