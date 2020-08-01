@@ -1,7 +1,6 @@
 <?
 
-$CategoryList = IPS_GetCategoryList(33603);
-sort($CategoryList);
+$CategoryList = IPS_GetChildrenIDs(33603);
 $CatLists = "";
 
 foreach ($CategoryList as $Category) {
