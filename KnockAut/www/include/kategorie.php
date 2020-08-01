@@ -1,6 +1,6 @@
 <?
 
-$CategoryList = IPS_GetCategoryList();
+$CategoryList = IPS_GetCategoryList(33603);
 sort($CategoryList);
 $CatLists = "";
 
