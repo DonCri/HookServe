@@ -85,10 +85,11 @@
                         <div class="modal-footer">
                             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Schliessen</a>
                         </div>
-                    </div>          
+                    </div> 
                 </div>
-                                    
- 
+                           
+
+
  <!-- Monitor Inhalt vom Modal Output vom WebSocket -->
 
  <div>
