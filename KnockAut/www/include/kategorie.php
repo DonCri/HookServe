@@ -7,5 +7,5 @@ foreach ($CategoryList as $Category) {
     $CategoryName = IPS_GetName($Category);
     // $CatLists.= $CategoryName;
 
-    echo($CategoryName);
+    echo("$CategoryName \n");
 }
