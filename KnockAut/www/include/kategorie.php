@@ -3,4 +3,9 @@
 $CategoryList = IPS_GetCategoryList();
 sort($CategoryList);
 
-echo($CategoryList);
+foreach ($CategoryList as $Category) {
+    $CategoryName = IPS_GetName($Category);
+    $CatLists.= $CategoryName;
+
+    echo($CatLists);
+}
