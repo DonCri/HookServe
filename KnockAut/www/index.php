@@ -36,7 +36,7 @@
         <li class="tab col s3"><a href="#test4">Update</a></li>
       </ul>
     </div>
-    <div id="test1" class="col s12">Test 1</div>
+    <div id="test1" class="col s12"> <div id="MyHouse"><? include('include/kategorie.php'); ?> </div> </div>
     <div id="test2" class="col s12"> <p id="output"> </p> </div>
     <div id="test3" class="col s12">Test 3</div>
     <div id="test4" class="col s12"> <a href="module_update.php"> Module Updaten </a> </div>
