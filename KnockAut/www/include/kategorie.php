@@ -1,5 +1,5 @@
 <?
 
-$Websocket = '<p id="output"></p>';
+$TEST = GetValueFormatted(43646);
 
-echo($Websocket);
+echo $TEST;
