@@ -1,7 +1,6 @@
 <?
 
 $Websocket = '<p id="output"></p>';
+$WSarray = explode(":", $Websocket);
 
-$WebsocketARRAY = explode(":", $Websocket);
-
-var_dump($WebsocketARRAY);
+echo $WSarray;
