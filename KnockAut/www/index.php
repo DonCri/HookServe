@@ -35,7 +35,7 @@
     <div id="test1" class="col s12">Test 1</div>
     <div id="test2" class="col s12">Test 2</div>
     <div id="test3" class="col s12">Test 3</div>
-    <div id="test4" class="col s12"><? include("module_update.php"); ?></div>
+    <div id="test4" class="col s12"> <a href="module_upade.php"> Module Updaten </a> </div>
   </div>
 
 <script type="text/javascript" src="js/materialize.min.js"></script>
