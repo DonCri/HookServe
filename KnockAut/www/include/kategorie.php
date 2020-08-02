@@ -1,7 +1,28 @@
-<?
+<html>
+<head></head>
 
-$TESTParent = IPS_GetParent(43646);
-$TESTname = IPS_GetName($TESTParent);
-$TEST = GetValueFormatted(43646);
+<body>
 
-echo ("$TESTname ->" . " $TEST");
+<!-- Modal Trigger -->
+<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4>Modal Header</h4>
+    <p>A bunch of text</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+  </div>
+</div>
+
+
+</body>
+
+</html>
+
+
+
+
+
