@@ -39,10 +39,10 @@
       <a href="#name"><span class="white-text name">John Doe</span></a>
       <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
     </div></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>MyHouse</a></li>
-    <li><a href="#!">WebSocket</a></li>
+    <li><a href="include/kategorie.php"><i class="material-icons">cloud</i>MyHouse</a></li>
+    <li><a href="ws/websocket.html">WebSocket</a></li>
     <li><div class="divider"></div></li>
-    <li><a class="subheader">Subheader</a></li>
+    <li><a class="subheader">EINSTELLUNGEN</a></li>
     <li><a class="waves-effect" href="module_update.php">Module Update</a></li>
   </ul>
   <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
