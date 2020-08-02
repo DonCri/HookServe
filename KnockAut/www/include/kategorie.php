@@ -13,7 +13,7 @@ $CategoryList = IPS_GetChildrenIDs(33603);
 foreach ($CategoryList as $Category) {
     $CategoryName = IPS_GetName($Category);
 
-    echo(?> <a class="waves-effect waves-light btn modal-trigger" href="#modal1"> <? $CategoryName); ?></a> <?
+    ?> <a class="waves-effect waves-light btn modal-trigger" href="#modal1"> <? echo($CategoryName); ?></a> <?
 } 
 ?>
 
