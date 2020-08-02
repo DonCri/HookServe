@@ -15,7 +15,7 @@
 <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
 
 <script> $(document).ready(function(){
-   $('.sidenav').sidenav();
+   $('.collapsible').collapsible();
    $('.modal').modal();
    $('.tabs').tabs();
  });</script>
@@ -28,26 +28,21 @@
     include('ws/websocket.html');
 ?>
 
-<nav> <p id="test01"> </p> </nav>
-
-  <ul id="slide-out" class="sidenav">
-    <li><div class="user-view">
-      <div class="background">
-        <img src="images/office.jpg">
-      </div>
-      <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-      <a href="#name"><span class="white-text name">John Doe</span></a>
-      <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-    </div></li>
-    <li id="test01"><a href="include/kategorie.php"><i class="material-icons">cloud</i>MyHouse</a></li>
-    <li><a href="ws/websocket.html">WebSocket</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">EINSTELLUNGEN</a></li>
-    <li><a class="waves-effect" href="module_update.php">Module Update</a></li>
+<ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>My House</div>
+      <div class="collapsible-body"><span> <? include('include/kategorie.php'); ?> </span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">place</i>Websocket</div>
+      <div class="collapsible-body"><span><p id="output"></p></span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Modul Update</div>
+      <div class="collapsible-body"><span><a href="module_update.php">Module Updaten</a></span></div>
+    </li>
   </ul>
-  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         
-
 
 
 
