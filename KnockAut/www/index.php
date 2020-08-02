@@ -28,7 +28,7 @@
     include('ws/websocket.html');
 ?>
 
-<nav> <!-- navbar content here  --> </nav>
+<nav> <p id="test01"> </p> </nav>
 
   <ul id="slide-out" class="sidenav">
     <li><div class="user-view">
@@ -39,7 +39,7 @@
       <a href="#name"><span class="white-text name">John Doe</span></a>
       <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
     </div></li>
-    <li><a href="include/kategorie.php"><i class="material-icons">cloud</i>MyHouse</a></li>
+    <li id="test01"><a href="include/kategorie.php"><i class="material-icons">cloud</i>MyHouse</a></li>
     <li><a href="ws/websocket.html">WebSocket</a></li>
     <li><div class="divider"></div></li>
     <li><a class="subheader">EINSTELLUNGEN</a></li>
