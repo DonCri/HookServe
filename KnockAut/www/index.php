@@ -30,15 +30,15 @@
 
 <ul class="collapsible">
     <li>
-      <div class="collapsible-header"><h4>My House</h4></div>
+      <div class="collapsible-header"><h6>My House</h6></div>
       <div class="collapsible-body"><span> <? include('include/kategorie.php'); ?> </span></div>
     </li>
     <li>
-      <div class="collapsible-header"><h4>Websocket</h4></div>
+      <div class="collapsible-header"><h6>Websocket</h6></div>
       <div class="collapsible-body"><span><p id="output"></p></span></div>
     </li>
     <li>
-      <div class="collapsible-header"><h4>Modul Update</h4></div>
+      <div class="collapsible-header"><h6>Modul Update</h6></div>
       <div class="collapsible-body"><span><a href="module_update.php">Module Updaten</a></span></div>
     </li>
   </ul>
